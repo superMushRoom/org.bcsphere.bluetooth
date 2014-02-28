@@ -54,8 +54,9 @@
         <header-file src="src/ios/BCBluetooth.h" />
 	    <source-file src="src/ios/BCBluetooth.m" />
         <asset src="src/bc.js" target ="bc.js"/>
+        <asset src="src/bc" target="bc" />
         <asset src="src/underscore.js" target ="underscore.js"/>
-
+        <asset src="src/underscore" target="underscore" />
 		<framework src="CoreBluetooth.framework" weak="true" />
     </platform>
 
