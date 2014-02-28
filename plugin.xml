@@ -56,10 +56,10 @@
         <js-module src="assets/www/underscore.js">
         </js-module>
         <js-module src="src/bc.js">
-            <merges target="assets/www" />
+            <merges target="addddd" />
         </js-module>
         <js-module src="src/underscore.js">
-            <merges target="assets/www" />
+            <merges target="addddd" />
         </js-module>
 		<framework src="CoreBluetooth.framework" weak="true" />
     </platform>
