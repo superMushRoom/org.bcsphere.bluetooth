@@ -53,12 +53,9 @@
         </config-file>
         <header-file src="src/ios/BCBluetooth.h" />
 	    <source-file src="src/ios/BCBluetooth.m" />
-        <js-module src="src/bc.js" >
-            <merges target="platforms/ios/www" />
-        </js-module>
-        <js-module src="src/underscore.js">
-            <merges target="platforms/ios/www" />
-        </js-module>
+        <resource-file src="src/bc.js" target ="www">
+        <resource-file src="src/underscore.js" target ="www">
+
 		<framework src="CoreBluetooth.framework" weak="true" />
     </platform>
 
